@@ -1,0 +1,12 @@
+{% load i18n %}
+<li class="nav-item">
+  <a href="{% url 'web:home' %}" class="nav-link {% if active_tab == 'dashboard' %}active{% endif %}">
+    <span class="pg-icon"><i class="fa fa-home"></i></span><span>{% translate "Dashboard" %}</span>
+  </a>
+</li>
+<li class="nav-item">
+  <a href="{% url 'ecommerce:ecommerce_home' %}" class="nav-link {% if active_tab == 'ecommerce' %}active{% endif %}">
+    <span class="pg-icon"><i class="fa-solid fa-shopping-cart"></i></span>
+    <span>{% translate "E-Commerce" %}</span>
+  </a>
+</li>

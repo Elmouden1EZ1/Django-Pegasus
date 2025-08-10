@@ -1,0 +1,18 @@
+Django>=5.2
+celery
+celery-progress
+celery[redis]
+dj-stripe>=2.9
+django-allauth[socialaccount,mfa]
+django-anymail[mailgun]  # email services
+django-celery-beat
+django-environ
+django-htmx
+django-template-partials
+django-vite>=3.1.0
+django-waffle
+djangorestframework
+drf-spectacular
+psycopg2-binary
+redis
+stripe<12.0
