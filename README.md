@@ -51,6 +51,8 @@ Create a database named `hafida_001`.
 
 ```
 createdb hafida_001
+# ou #createdb -U postgres hafida_001
+
 ```
 
 Create database migrations:

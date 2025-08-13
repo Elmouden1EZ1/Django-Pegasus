@@ -166,7 +166,7 @@ else:
             "ENGINE": "django.db.backends.postgresql",
             "NAME": env("DJANGO_DATABASE_NAME", default="hafida_001"),
             "USER": env("DJANGO_DATABASE_USER", default="postgres"),
-            "PASSWORD": env("DJANGO_DATABASE_PASSWORD", default="***"),
+            "PASSWORD": env("DJANGO_DATABASE_PASSWORD", default="admin"),
             "HOST": env("DJANGO_DATABASE_HOST", default="localhost"),
             "PORT": env("DJANGO_DATABASE_PORT", default="5432"),
         }

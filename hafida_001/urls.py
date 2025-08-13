@@ -29,7 +29,7 @@ sitemaps = {
 
 urlpatterns = [
     # redirect Django admin login to main login page
-    path("admin/login/", RedirectView.as_view(pattern_name="account_login")),
+    path("adnmin/logi/", RedirectView.as_view(pattern_name="account_login")),
     path("admin/", admin.site.urls),
     path("dashboard/", include("apps.dashboard.urls")),
     path("sitemap.xml", sitemap, {"sitemaps": sitemaps}, name="django.contrib.sitemaps.views.sitemap"),
